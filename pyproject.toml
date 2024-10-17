@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bdays"
+version = "0.0.1"
+description = "Simple app for displaying bdays"
+authors = ["MartinBartos <martin.bartos971014@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "3.11.10"
+django = "5.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
